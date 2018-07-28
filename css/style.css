@@ -126,6 +126,37 @@ img{
 .inner{
     height: 100vh;
     background: url("../img/inner.jpg") no-repeat center / cover;
+    padding-top: 139px;
+    text-align: center;
+    position: relative;
+}
+.inner-content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+.inner-content h1{
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #999999;
+}
+.inner-content h1 span{
+    font-size: 20px;
+    color: #fcac45;
+    font-family: "Open sans";
+}
+.inner-content h1 .sub-title{
+    padding-top: 25px;
+    display: block;
+    color: #c3c3c3;
+    text-transform: none;
+}
+.inner-content .border-oval{
+    color: #c3c3c3;
+    font-size: 20px;
+    
 }
 /* Custom style end */
 
