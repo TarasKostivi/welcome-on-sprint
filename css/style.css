@@ -19,7 +19,8 @@ a{
 }
 
 a:hover, a:active{
-	text-decoration: none;
+    text-decoration: none;
+    color: inherit;
 }
 
 ul{
@@ -27,7 +28,114 @@ ul{
 	padding: 0;
 	margin: 0;
 }
-img{
+img{ 
     max-width: 100%;
 }
 /* Reset End */
+/* Defaul clases start */
+.bg-black{
+    background-color: #0b0b0b;
+}
+/* Defaul clases end */
+/* ======== DEFAUL COMPONENT START======== */
+.container-fluid{
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px
+}
+.header{
+    background-color: transparent;
+    overflow: hidden;
+    padding: 55px 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+.logo-text{
+    float: left;
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+.header-nav{
+    float: right;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #fff;
+}
+.header-nav a + a{
+    margin-left: 25px;
+}
+/* .border-shadow{
+    text-decoration: none;
+    display: inline-block;
+    position: relative; 
+    padding-bottom: 5px;
+}
+.border-shadow:hover::before,
+.border-shadow:hover::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 30px;
+    position: absolute;
+    bottom: -5px; 
+}
+.border-shadow:hover::before{
+    background-color: #292929;
+    left: 0px;
+}
+.border-shadow:hover::after{
+    background-color: #fcac45;
+    right: 0px;
+} */
+
+.border {
+    width: 100px;
+    height: 100px;
+}
+.border:hover {
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-image: linear-gradient(to right, #292929 40%, #be853d 5%, #fcac45 50px) 1 1;
+    padding-bottom: 20px;
+}
+.default-section{
+    padding: 100px 0;
+}
+.default-section.average{
+    padding: 90px 0;
+}
+.title{
+    font-size: 44px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+}
+/* ======== DEFAUL COMPONENT END ======== */
+/* Custom style start */
+.inner{
+    height: 100vh;
+    background: url("../img/inner.jpg") no-repeat center / cover;
+}
+/* Custom style end */
+
+
+
+
+
+
+
+
+
+
+
