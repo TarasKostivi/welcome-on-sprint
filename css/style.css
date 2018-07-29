@@ -37,19 +37,59 @@ img{
 .bg-black{
     background-color: #0b0b0b;
 }
+.text-white{
+    color: #fff;
+}
+.text-black{
+    color: #222;
+}
+.border-word {
+    border-bottom: 4px solid #fcac45;
+    padding-bottom: 15px;
+}
 /* DEFAULT CLASES END*/
 
 /* ======== DEFAUL COMPONENT START======== */
 .container-fluid{
     max-width: 1170px;
     margin: auto;
-    padding: 0 15px
+    padding: 0 15px;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}
+.default-section{
+    padding: 100px 0;
+}
+.default-section.average{
+    padding: 90px 0;
+}
+.title{
+    font-size: 44px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+}
+.title.light{
+    font-weight: 700;
+    line-height: 24px;
+}
+.itlic{
+    font-style: italic;
+}
+.default-text{
+    font-size: 16px;
+    line-height: .66;
 }
 .header{
     background-color: transparent;
     overflow: hidden;
     padding: 55px 0;
-    position: fixed;
+    position: absolute;
     width: 100%;
     left: 0;
     top: 0;
@@ -85,21 +125,63 @@ img{
     border-image: linear-gradient(to right, #292929 40%, #be853d 5%, #fcac45 50px) 1 1;
     padding-bottom: 20px;
 }
-.default-section{
-    padding: 100px 0;
+.info{
+    display: flex;
 }
-.default-section.average{
-    padding: 90px 0;
+.info .information-client{
+    margin-left: auto;
 }
-.title{
-    font-size: 44px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
+.btn{
+    display: inline-block;
+    padding: 15px 40px 15px 20px;
+    margin-top: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 2.77;
+    letter-spacing: .1,8em;
     text-transform: uppercase;
-    letter-spacing: 0;
-    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 2px; 
 }
-/* ======== DEFAUL COMPONENT END ======== */
+.btn .fas{
+    padding-right: 10px;
+}
+.btn-info{
+    color: #616161;
+    background-color: transparent;
+    border-color: #7f7f7f;
+}
+.btn.btn-info:hover{
+    color: #fff;
+    background-color: #7f7f7f;
+    border-color: #7f7f7f;
+}
+.title.small{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.title.big{
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.info .information-client .default-text{
+    font-size: 18px;
+    width: 430px;
+    line-height: 1.38;
+    padding-top: 25px;
+}
+.info .information-client .progres-wrap .text{
+    font-size: 18px;
+}
+.info .information-client .progres-wrap .default-text{
+    font-size: 16px;
+}
+.bilding-item-skills{
+    padding-top: 44px;
+}
+/*======== DEFAUL COMPONENT END ======== */
 
 /* CUSTOME STYLE START */
 /* ======== INNER ======== */
