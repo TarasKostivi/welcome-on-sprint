@@ -74,10 +74,10 @@ img{
     letter-spacing: 0;
     margin-bottom: 30px;
 }
-.title.light{
+/* .title.light{
     font-weight: 700;
     line-height: 24px;
-}
+} */
 .itlic{
     font-style: italic;
 }
@@ -225,6 +225,52 @@ img{
     transform: translateY(-50%) translateX(-50%);
 }
 /* ======== INNER ======== */
+
+/* ===== REWIES ===== */
+.rewerse .carousel{
+    padding: 100px 0;
+}
+.rewerse .carousel .title{
+    position: relative;
+}
+.rewerse .carousel .title::before,
+.rewerse .carousel .title::after{
+    content: '';
+    display: inline-block;
+    height: 5px;  
+    position: absolute;
+    bottom: -5px; 
+}
+.rewerse .carousel .title::before{
+    width: 67px;
+    background-color: #b37b33;
+    left: 48%;
+    bottom: -50%;
+    top: 160%;
+}
+.rewerse .carousel .title::after{
+    background-color: #fcac45;
+    right: 47%;
+    width: 120px;
+    bottom: -30%;
+    top: 60px;
+} 
+/* .border-shadow{
+    text-decoration: none;
+    display: inline-block;
+    position: relative; 
+    padding-bottom: 5px;
+}
+.border-shadow:hover::before,
+.border-shadow:hover::after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 30px;
+    position: absolute;
+    bottom: -5px; 
+}
+/* ===== REWIES END ===== */
 /* CUSTOME STYLE END */
 
 
