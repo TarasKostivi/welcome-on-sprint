@@ -255,20 +255,9 @@ img{
     bottom: -30%;
     top: 60px;
 } 
-/* .border-shadow{
-    text-decoration: none;
-    display: inline-block;
-    position: relative; 
-    padding-bottom: 5px;
-}
-.border-shadow:hover::before,
-.border-shadow:hover::after{
+.glyphicon-chevron-left:before,
+.glyphicon-chevron-right:before{
     content: '';
-    display: block;
-    height: 3px;
-    width: 30px;
-    position: absolute;
-    bottom: -5px; 
 }
 /* ===== REWIES END ===== */
 /* CUSTOME STYLE END */
