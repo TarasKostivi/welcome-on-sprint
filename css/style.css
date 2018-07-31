@@ -232,6 +232,7 @@ img{
 }
 .rewerse .carousel .title{
     position: relative;
+    margin-bottom: 134px;
 }
 .rewerse .carousel .title::before,
 .rewerse .carousel .title::after{
@@ -255,9 +256,43 @@ img{
     bottom: -30%;
     top: 60px;
 } 
+.team-row {
+    padding: 0 15px;
+}
+.team-row .team-col{
+    width: calc( 100% / 4);
+}
+.team-img{
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+.team-description .team-author{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.team-description .author-skills{
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.team-description .card-text{
+    line-height: 1.5;
+}
+.team-description .card-text p{
+    padding: 0 20px;
+}
 .glyphicon-chevron-left:before,
 .glyphicon-chevron-right:before{
     content: '';
+}
+.carousel-indicators .active{
+    background-color: #fcac45;
+    border: none;
+}
+.carousel-indicators li{
+    border-radius: 0;
+    background-color: #fff; 
 }
 /* ===== REWIES END ===== */
 /* CUSTOME STYLE END */
