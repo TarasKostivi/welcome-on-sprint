@@ -73,17 +73,18 @@ img{
     text-transform: uppercase;
     letter-spacing: 0;
     margin-bottom: 30px;
+    text-align: center;
 }
 /* .title.light{
     font-weight: 700;
     line-height: 24px;
 } */
-.itlic{
+.italic{
     font-style: italic;
 }
 .default-text{
     font-size: 16px;
-    line-height: .66;
+    line-height: 1.5;
 }
 .header{
     background-color: transparent;
@@ -228,10 +229,13 @@ img{
 .rewerse .carousel{
     padding: 100px 0;
 }
+.our-serviсes .title,
 .rewerse .carousel .title{
     position: relative;
     margin-bottom: 134px;
 }
+.our-serviсes .title::before,
+.our-serviсes .title::after,
 .rewerse .carousel .title::before,
 .rewerse .carousel .title::after{
     content: '';
@@ -240,6 +244,12 @@ img{
     position: absolute;
     bottom: -5px; 
 }
+.our-serviсes .title::before{
+    width: 61px;
+    background-color: #fdc57c;
+    left: 45%;
+    top: 75px
+}
 .rewerse .carousel .title::before{
     width: 67px;
     background-color: #b37b33;
@@ -247,6 +257,7 @@ img{
     bottom: -50%;
     top: 160%;
 }
+.our-serviсes .title::after,
 .rewerse .carousel .title::after{
     background-color: #fcac45;
     right: 47%;
@@ -293,6 +304,12 @@ img{
     background-color: #fff; 
 }
 /* ===== REWIES END ===== */
+.our-serviсes .title{
+    margin-bottom: 85px;
+}
+/* .our-serviсes .default-text{
+    text-align: center;
+} */
 /* CUSTOME STYLE END */
 
 
