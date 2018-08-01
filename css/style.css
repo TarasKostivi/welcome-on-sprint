@@ -49,7 +49,9 @@ img{
 }
 /* DEFAULT CLASES END*/
 
-/* ======== DEFAUL COMPONENT START======== */
+/* DEFAUL COMPONENT START */
+
+/* ==== CONTAINER ==== */
 .container-fluid{
     max-width: 1170px;
     margin: auto;
@@ -60,12 +62,18 @@ img{
     margin: auto;
     padding: 0 15px;
 }
+/* ==== CONTAINER END==== */
+
+/* ==== DEAFAULT-SECTION ==== */
 .default-section{
     padding: 100px 0;
 }
 .default-section.average{
     padding: 90px 0;
 }
+/* ==== DEAFAULT-SECTION END ==== */
+
+/* ==== TITLE ==== */
 .title{
     font-size: 44px;
     font-family: "Open Sans", sans-serif;
@@ -75,17 +83,28 @@ img{
     margin-bottom: 30px;
     text-align: center;
 }
-/* .title.light{
-    font-weight: 700;
-    line-height: 24px;
-} */
 .italic{
     font-style: italic;
 }
+.title.small{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.title.big{
+    font-size: 34px;
+    font-weight: 400;
+}
+/* ==== TITLE END ==== */
+
+/* ==== DEAFAULT-TEXT ==== */
 .default-text{
     font-size: 16px;
     line-height: 1.5;
 }
+/* ==== DEAFAULT-TEXT END ==== */
+
+/* ==== HEADER ==== */
 .header{
     background-color: transparent;
     overflow: hidden;
@@ -114,6 +133,9 @@ img{
 .header-nav a + a{
     margin-left: 25px;
 }
+/* ===== HEADER END ===== */
+
+/* == BORDER == */
 .border {
     width: 100px;
     height: 100px;
@@ -124,12 +146,16 @@ img{
     border-image: linear-gradient(to right, #292929 40%, #be853d 5%, #fcac45 50px) 1 1;
     padding-bottom: 20px;
 }
+/* == BORDER END == */
+
+/* == INFO == */
 .info{
     display: flex;
 }
 .info .information-client{
     margin-left: auto;
 }
+/* ===== BTN BTN-DEFAULT ===== */
 .btn{
     display: inline-block;
     padding: 15px 40px 15px 20px;
@@ -155,16 +181,7 @@ img{
     background-color: #7f7f7f;
     border-color: #7f7f7f;
 }
-.title.small{
-    font-size: 20px;
-    font-weight: 300;
-    margin-bottom: 20px;
-}
-.title.big{
-    font-size: 34px;
-    font-weight: 400;
-}
-
+/* ===== BTN BTN-DEFAULT END ===== */
 .info .information-client .default-text{
     font-size: 18px;
     width: 430px;
@@ -177,12 +194,18 @@ img{
 .info .information-client .progres-wrap .default-text{
     font-size: 16px;
 }
+/* == INFO END == */
+
+/* BILDING-ITEM-SKILLS */
 .bilding-item-skills{
     padding-top: 44px;
 }
+/* = BILDING-ITEM-SKILLS END = */
+
 /*======== DEFAUL COMPONENT END ======== */
 
 /* CUSTOME STYLE START */
+
 /* ======== INNER ======== */
 .inner{
     height: 100vh;
@@ -304,12 +327,52 @@ img{
     background-color: #fff; 
 }
 /* ===== REWIES END ===== */
+
+/* == OUR-SERVICSE == */
 .our-serviсes .title{
     margin-bottom: 85px;
 }
-/* .our-serviсes .default-text{
-    text-align: center;
-} */
+.our-serviсes .default-text{
+    padding-bottom: 95px;
+}
+/* == OUR-SERVICSE END == */
+
+/* === SERVICE-DESCRIPTION === */
+.service-description .default-text{
+    font-size: 14px;
+    line-height: 1,5;
+    padding-top: 18px;
+    padding-bottom: 0;
+}
+.service-description a:hover, a:active{
+    color: #0b0b0b;
+}
+.service-description a{
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 0,96;
+}
+/* === SERVICE-DESCRIPTION END === */
+
+/* === SERVICES === */
+.services .services-icon .icon{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 27px;
+    border: 5px solid #fcac45;
+    border-radius: 50%;
+    padding: 30px 30px 25px 30px;
+    width: 133px;
+}
+.services-col + .services-col{
+    padding-left: 255px; 
+}
+.services .services-icon a{
+    display: block;
+}
+/* === SERVICES END === */
+
 /* CUSTOME STYLE END */
 
 
