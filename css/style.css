@@ -388,6 +388,7 @@ img{
 .navigation .title{
     font-size: 18px;
     font-weight: 600;
+    margin-bottom: 0;
 } 
 .nav-tabs {
     border-bottom: none;
@@ -429,6 +430,24 @@ img{
 .nav>li>a + a {
     padding: 0px 15px;
 }
+.tab-panel{
+    clear: both;
+    padding-top: 50px;
+}
+.our-work img{
+    padding-right: 19px;
+    padding-bottom: 20px;  
+}
+.testimonials .default-text{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    padding: 0px 455px;
+}
+/* .tab-panel img{
+    float: left;
+} */
 /* CUSTOME STYLE END */
 
 
