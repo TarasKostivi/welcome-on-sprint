@@ -380,7 +380,55 @@ img{
     display: block;
 }
 /* === SERVICES END === */
+/* = our-work = */
+.our-work .default-text{
+    padding-bottom: 110px;
+}
+/* nav-tabs */
+.navigation .title{
+    font-size: 18px;
+    font-weight: 600;
+} 
+.nav-tabs {
+    border-bottom: none;
 
+}
+.nav-tabs>li.active>a{
+    background-color: #fff;
+    border: none;
+    border-right: 1px solid #222;
+}
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border-right: 1px solid #222;
+    font-weight: 600;
+}
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover {
+    border-bottom: none;
+    border-bottom-color: inherit;
+}
+.nav-tabs>li>a:hover {
+    border-color: #222;
+}
+.nav>li>a {
+    padding: 0px 15px;
+    font-size: 18px;
+}
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: none;
+    border-radius: inherit;
+    border-right: 1px solid #222;
+}
+.nav>li>a + a {
+    padding: 0px 15px;
+}
 /* CUSTOME STYLE END */
 
 
