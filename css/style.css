@@ -31,11 +31,21 @@ ul{
 img{ 
     max-width: 100%;
 }
+textarea{
+    resize: vertical;
+}
 /* RESET END */
 
 /* DEFAULT CLASES START*/
+.bg-dark{
+    background-color: #222222;
+    padding: 40px;
+}
 .bg-black{
     background-color: #0b0b0b;
+}
+.text-red{
+    color: #db0000;
 }
 .text-white{
     color: #fff;
@@ -46,6 +56,12 @@ img{
 .border-word {
     border-bottom: 4px solid #fcac45;
     padding-bottom: 15px;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: space-between;
 }
 /* DEFAULT CLASES END*/
 
@@ -90,10 +106,12 @@ img{
     font-size: 20px;
     font-weight: 300;
     margin-bottom: 20px;
+    text-align: left;
 }
 .title.big{
     font-size: 34px;
     font-weight: 400;
+    text-align: left;
 }
 /* ==== TITLE END ==== */
 
@@ -156,6 +174,22 @@ img{
     margin-left: auto;
 }
 /* ===== BTN BTN-DEFAULT ===== */
+.contact-us .btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 60px 10px 60px;
+    border-radius: none;
+    margin-top: 27px; 
+    position: absolute;
+    right: 29%;
+}
+.contact-us .btn.btn-orange{
+    color: #fff;
+    background-color: #fcac45
+}
+.contact-us .btn.btn-orange:hover{
+    background-color: #c08232;
+}
 .btn{
     display: inline-block;
     padding: 15px 40px 15px 20px;
@@ -184,7 +218,7 @@ img{
 /* ===== BTN BTN-DEFAULT END ===== */
 .info .information-client .default-text{
     font-size: 18px;
-    width: 430px;
+    max-width: 430px;
     line-height: 1.38;
     padding-top: 25px;
 }
@@ -451,12 +485,49 @@ img{
     padding: 0px 399px;
 }
 /* = contact-us = */
+.contact-us .default-text{
+    padding-bottom: 85px;
+}
 .contact-us .default-text p{
-    width: 770px;
+    max-width: 770px;
     margin: auto;
 }
 /* = contact-us end = */
-
+.contact-us textarea{
+    min-height: 165px;
+}
+.form-col{
+    float: none;
+}
+.form-col label{
+    padding-top: 26px;
+}
+/* ====== FOOTER ====== */
+.footer{
+    margin-top: 100px;
+}
+.footer-icons a{
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+.footer-icons a{
+    color: #fff;
+}
+.footer-icons a + a{
+    margin-left: 20px;
+}
+.footer-content{
+    font-size: 12px;
+    line-height: 2.5;
+}
+.footer-icons a .fab:before {
+    border: 3px solid;
+    padding: 5px 6px;
+    border-radius: 50%;
+}
+/* ====== FOOTER END ====== */
 /* CUSTOME STYLE END */
 
 
