@@ -254,7 +254,7 @@ img{
 
 /* ===== REWIES ===== */
 .rewerse .carousel{
-    padding: 100px 0;
+    padding: 100px 0 165px 0;
 }
 .our-serviсes .title,
 .rewerse .carousel .title{
@@ -379,12 +379,20 @@ img{
 .services .services-icon a{
     display: block;
 }
+.carousel-indicators {
+    bottom: 80px;
+}
 /* === SERVICES END === */
 /* = our-work = */
 .our-work .default-text{
     padding-bottom: 110px;
 }
-/* nav-tabs */
+.our-work img{
+    padding-right: 19px;
+    padding-bottom: 20px;  
+}
+/* = our-work end = */
+/* ========  nav-tabs ======== */
 .navigation .title{
     font-size: 18px;
     font-weight: 600;
@@ -430,24 +438,25 @@ img{
 .nav>li>a + a {
     padding: 0px 15px;
 }
+/* ========  nav-tabs end ======== */
 .tab-panel{
     clear: both;
     padding-top: 50px;
-}
-.our-work img{
-    padding-right: 19px;
-    padding-bottom: 20px;  
 }
 .testimonials .default-text{
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 600;
     color: #fff;
-    padding: 0px 455px;
+    padding: 0px 399px;
 }
-/* .tab-panel img{
-    float: left;
-} */
+/* = contact-us = */
+.contact-us .default-text p{
+    width: 770px;
+    margin: auto;
+}
+/* = contact-us end = */
+
 /* CUSTOME STYLE END */
 
 
