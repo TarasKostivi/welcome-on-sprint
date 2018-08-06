@@ -146,7 +146,7 @@ textarea{
 .header-nav{
     float: right;
     font-size: 14px;
-    line-height: 29px;
+    line-height: 23px;
 }
 .header-nav a + a{
     margin-left: 25px;
@@ -170,8 +170,18 @@ textarea{
 .info{
     display: flex;
 }
+@media(max-width: 991px){
+    .info{
+        display: block;
+    }
+}
 .info .information-client{
     margin-left: auto;
+}
+@media(max-width: 991px){
+    .info .information-client{
+        margin-top: 100px;
+    }
 }
 /* ===== BTN BTN-DEFAULT ===== */
 .contact-us .btn{
@@ -189,6 +199,11 @@ textarea{
 }
 .contact-us .btn.btn-orange:hover{
     background-color: #c08232;
+}
+@media(max-width: 991){
+    .info-img img{
+        text-align: center;
+    }
 }
 .btn{
     display: inline-block;
@@ -259,6 +274,12 @@ textarea{
     text-transform: uppercase;
     color: #999999;
 }
+
+@media(max-width: 991px){
+    .inner-content h1{
+        font-size: 37px;
+    }
+}
 .inner-content h1 span{
     color: #fcac45;
     font-family: "Open sans";
@@ -269,6 +290,12 @@ textarea{
     color: #c3c3c3;
     text-transform: none;
     font-size: 20px;
+}
+
+@media(max-width: 991px){
+    .inner-content h1 .sub-title{
+        font-size: 18px;
+    }
 }
 .inner .border-circle{
     color: #c3c3c3;
@@ -432,6 +459,13 @@ textarea{
 .our-work-tab .nav-tabs{
     border-bottom: none;
 }
+.item-col{
+    width: calc( 100% / 4);
+    padding: 0 15px;
+}
+.item-img{
+    text-align: center;
+}
 .nav li a{
     padding: 0 14px;
 }
@@ -486,6 +520,15 @@ textarea{
     font-weight: 600;
     margin-bottom: 0;
 } 
+.contact-us textarea{
+    min-height: 165px;
+}
+.form-col{
+    float: none;
+}
+.form-col label{
+    padding-top: 26px;
+}
 .testimonials .default-text{
     font-size: 18px;
     text-transform: uppercase;
